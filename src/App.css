@@ -1,0 +1,113 @@
+/* Стили для обертки игрового поля */
+.board {
+  display: inline-block;
+  background-color: #1286d4;
+  border: 2px solid #034365;
+  border-radius: 5px;
+  padding: 10px;
+  width: 20rem;
+}
+
+/* Стили для строк на игровом поле */
+.board-row {
+  display: flex;
+}
+
+/* Стили для статуса (победитель или следующий ход) */
+.status {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #007bff;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+/* Стили для кнопок перехода к ходам */
+.game-info button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: underline;
+  margin: 10px 0;
+  position: relative;
+  right: 15px;
+}
+
+/* Стили для выделенной кнопки перехода */
+.game-info button:focus {
+  outline: none;
+}
+
+/* Стили для контейнера игры */
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Стили для игровой доски */
+.game-board {
+  margin-top: 13px;
+  border: 2px solid #09a6ee;
+  border-color: red;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.game-info button {
+  color: #007bff;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+
+.square {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  width: 130px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  line-height: 40px;
+  cursor: pointer;
+  margin: 2px;
+  border-radius: 10px;
+}
+
+.accordion {
+  text-align: center;
+  cursor: pointer;
+}
+.plusMinus {
+  font-size: 2rem;
+  width: 100px;
+  height: 100px;
+}
+
+.plusMinus:hover {
+  text-shadow: 2px 10px 30px rgb(5, 168, 243);
+}
+
+.list {
+  list-style-type: none;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+  background-color: #1286d456;
+  padding: 20px;
+  border-radius: 10px;
+}
