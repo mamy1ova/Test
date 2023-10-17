@@ -1,7 +1,7 @@
 {
   "name": "tictactoe",
   "version": "0.1.0",
-  "homepage": "http://Matraim.github.io/TicTacGame",
+  "homepage": "http://mamy1ova.github.io/Test",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
